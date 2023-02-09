@@ -15,6 +15,55 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black bg-opacity-25">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/"
+          ><img
+            class="navbar-logo"
+            src="images/hogwarts-shield-logo.png"
+            alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact J.K.Rowling</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About Hogwarts Houses
+              </a>
+              <ul class="dropdown-menu bg-black bg-opacity-75">
+                <li><a class="dropdown-item G" href="#">Gryffindor</a></li>
+                <li><a class="dropdown-item S" href="#">Slytherin</a></li>
+                <li><a class="dropdown-item R" href="#">Ravenclaw</a></li>
+                <li><a class="dropdown-item H" href="#">Hufflepuff</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <div class="hero">
       <h2 class="subheading">Everything You Need To Know About</h2>
       <h1 class="heading">Hogwarts Houses</h1>

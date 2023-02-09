@@ -10,11 +10,13 @@
         serif;
 }
 
+
+
 body {
     background-color: black;
     background-image: url("/images/peakpx–копія.jpg");
     background-size: cover;
-    max-width: 70%;
+
     margin: 0 auto;
 }
 
@@ -39,8 +41,49 @@ h4 {
     font-size: 30px;
 }
 
+
+
+.navbar-logo {
+    max-height: 40px;
+}
+
+.nav-link,
+.dropdown-item {
+    color: var(--text-color);
+}
+
+.dropdown-toggle {
+    color: var(--text-color) !important;
+}
+
+.nav-link:hover {
+    color: rgb(232, 187, 145);
+}
+
+.G:hover {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    color: crimson;
+}
+
+.S:hover {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    color: darkgreen;
+}
+
+.R:hover {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    color: rgb(31, 31, 240);
+
+}
+
+.H:hover {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    color: rgb(243, 201, 96);
+}
+
 .hero {
-    margin: 100px 0 20px 0;
+    margin: 100px 60px 20px 60px;
+
 }
 
 .heading {
@@ -71,4 +114,24 @@ h4 {
 .house-link:hover {
     filter: brightness(140%);
 
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 72px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .hero {
+        margin-top: 30px;
+    }
+
+    h3 {
+        font-size: 36px;
+    }
 }
