@@ -3,6 +3,7 @@
         sans-serif;
     --golden-color: rgb(221, 139, 62);
     --red-color: rgb(248, 85, 85);
+    --green-color: rgb(75, 122, 91);
     --text-color: silver;
     --text-border: -1px 1px 0 #000,
         1px 1px 0 #000,
@@ -66,6 +67,14 @@ h4 {
     color: var(--golden-color);
 }
 
+.accent-color-G {
+    color: rgb(149, 20, 20);
+}
+
+.accent-color-S {
+    color: rgb(19, 89, 58);
+}
+
 
 .navbar-logo {
     max-height: 40px;
@@ -112,12 +121,14 @@ h4 {
 
 
 
-.switching-img-link {
-    text-decoration: none;
+
+
+.gryffindor-link:hover {
+    color: var(--red-color);
 }
 
-.godric-link:hover {
-    color: var(--red-color);
+.slytherin-link:hover {
+    color: var(--green-color);
 }
 
 
@@ -125,10 +136,15 @@ h4 {
     max-width: 310px;
     display: block;
     margin: 0 auto;
+    margin-top: 50px;
 }
 
 .gryffindor-img {
     border: 15px ridge var(--golden-color);
+}
+
+.slytherin-img {
+    border: 15px ridge var(--text-color);
 }
 
 
@@ -138,6 +154,7 @@ table {
     background-color: rgba(252, 252, 252, 0.2);
     max-width: 400px;
     margin: 0 auto;
+    border: 1px solid black;
 }
 
 td {
@@ -145,11 +162,15 @@ td {
     text-shadow: var(--text-border);
     font-size: 20px;
     font-weight: bold;
+    border: 1px solid black;
 }
 
 .gryffindor-table {
     color: var(--red-color);
-    border: 1px solid black;
+}
+
+.slytherin-table {
+    color: var(--green-color);
 }
 
 
