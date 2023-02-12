@@ -1,7 +1,9 @@
 :root {
     --hogwarts-font: 'Harry Potter',
         sans-serif;
-    --text-color: rgb(221, 139, 62);
+    --golden-color: rgb(221, 139, 62);
+    --red-color: rgb(248, 85, 85);
+    --text-color: silver;
     --text-border: -1px 1px 0 #000,
         1px 1px 0 #000,
         1px -1px 0 #000,
@@ -10,27 +12,30 @@
         serif;
 }
 
-
-
 body {
     background-color: black;
     background-image: url("/images/background-trees.jpg");
     background-size: cover;
-
     margin: 0 auto;
 }
 
+.hero {
+    margin: 100px 60px 20px 60px;
+}
+
+.container {
+    padding: 0 100px 0 100px;
+}
+
+
 h1 {
     font-size: 96px;
-    padding-top: 20px;
-
-    margin: 0;
+    margin-top: 50px;
 }
 
 h2 {
     font-weight: 500;
     font-size: 48px;
-
 }
 
 h3 {
@@ -41,21 +46,33 @@ h4 {
     font-size: 30px;
 }
 
+.heading {
+    font-family: var(--hogwarts-font);
+    text-align: center;
+    text-shadow: var(--text-border);
+}
+
+.subheading {
+    font-family: var(--main-font);
+    text-shadow: var(--text-border);
+    text-align: center;
+}
+
+.text-color-standart {
+    color: var(--text-color);
+}
+
+.text-color-G {
+    color: var(--golden-color);
+}
+
+
 .navbar-logo {
     max-height: 40px;
 }
 
-.nav-link,
 .dropdown-item {
     color: var(--text-color);
-}
-
-.dropdown-toggle {
-    color: var(--text-color) !important;
-}
-
-.nav-link:hover {
-    color: rgb(232, 187, 145);
 }
 
 .G:hover {
@@ -71,7 +88,6 @@ h4 {
 .R:hover {
     background-color: rgba(0, 0, 0, 0.5) !important;
     color: rgb(31, 31, 240);
-
 }
 
 .H:hover {
@@ -79,28 +95,6 @@ h4 {
     color: rgb(243, 201, 96);
 }
 
-.hero {
-    margin: 100px 60px 20px 60px;
-
-}
-
-.container {
-    padding: 0 100px 0 100px;
-}
-
-.heading {
-    font-family: var(--hogwarts-font);
-    text-align: center;
-    color: var(--text-color);
-    text-shadow: var(--text-border);
-}
-
-.subheading {
-    font-family: var(--main-font);
-    color: var(--text-color);
-    text-shadow: var(--text-border);
-    text-align: center;
-}
 
 .house-logo {
     max-width: 300px;
@@ -116,9 +110,51 @@ h4 {
     filter: brightness(140%);
 }
 
+
+
+.switching-img-link {
+    text-decoration: none;
+}
+
+.godric-link:hover {
+    color: var(--red-color);
+}
+
+
+.founder-img {
+    max-width: 310px;
+    display: block;
+    margin: 0 auto;
+}
+
+.gryffindor-img {
+    border: 15px ridge var(--golden-color);
+}
+
+
+
+
+table {
+    background-color: rgba(252, 252, 252, 0.2);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+td {
+    font-family: var(--main-font);
+    text-shadow: var(--text-border);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.gryffindor-table {
+    color: var(--red-color);
+    border: 1px solid black;
+}
+
+
 .git-footer {
     font-family: var(--main-font);
-    color: var(--text-color);
     text-shadow: var(--text-border);
     text-align: center;
     font-size: 20px;
@@ -129,42 +165,6 @@ h4 {
     color: darkgreen;
     text-decoration: none;
 }
-
-.founder-img {
-    max-width: 300px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 30px;
-    border: 10px ridge var(--text-color);
-}
-
-.standart-table-line {
-    background-color: rgba(121, 120, 118, 0.7);
-}
-
-.crimson-table-line {
-    background-color: rgba(220, 51, 51, 0.7);
-
-}
-
-/* table, */
-td {
-    font-family: var(--main-font);
-    color: var(--text-color);
-    text-shadow: var(--text-border);
-    border: 1px solid black;
-    font-size: 20px;
-}
-
-/* table {
-    margin: 0 auto;
-    
-} */
-
-/* td {
-    padding: 2px 20px 2px 20px;
-} */
-
 
 
 
@@ -180,16 +180,22 @@ td {
     }
 
     h3 {
-        font-size: 36px;
+        font-size: 30px;
+        line-height: 1.5;
     }
 
     .hero {
+        margin: 0 auto;
         margin-top: 30px;
     }
 
     .container,
     .col-md-12 {
         padding: 0;
+    }
+
+    table {
+        max-width: 300px;
     }
 
 
