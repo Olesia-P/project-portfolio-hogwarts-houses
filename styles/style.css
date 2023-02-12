@@ -14,7 +14,7 @@
 
 body {
     background-color: black;
-    background-image: url("/images/peakpx–копія.jpg");
+    background-image: url("/images/background-trees.jpg");
     background-size: cover;
 
     margin: 0 auto;
@@ -130,6 +130,44 @@ h4 {
     text-decoration: none;
 }
 
+.founder-img {
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 10px ridge var(--text-color);
+}
+
+.standart-table-line {
+    background-color: rgba(121, 120, 118, 0.7);
+}
+
+.crimson-table-line {
+    background-color: rgba(220, 51, 51, 0.7);
+
+}
+
+/* table, */
+td {
+    font-family: var(--main-font);
+    color: var(--text-color);
+    text-shadow: var(--text-border);
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+/* table {
+    margin: 0 auto;
+    
+} */
+
+/* td {
+    padding: 2px 20px 2px 20px;
+} */
+
+
+
+
 @media (max-width: 600px) {
     h1 {
         font-size: 72px;
@@ -149,7 +187,10 @@ h4 {
         margin-top: 30px;
     }
 
-    .container {
+    .container,
+    .col-md-12 {
         padding: 0;
     }
+
+
 }
