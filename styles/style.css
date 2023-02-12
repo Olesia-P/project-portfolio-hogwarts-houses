@@ -6,6 +6,7 @@
     --green-color: rgb(75, 122, 91);
     --bronze-color: #b77d66;
     --blue-color: rgb(86, 131, 198);
+    --yellow-color: rgb(236, 194, 118);
     --text-color: rgb(205, 203, 203);
     --text-border: -1px 1px 0 #000,
         1px 1px 0 #000,
@@ -92,6 +93,23 @@ h4 {
     color: rgb(54, 85, 155);
 }
 
+.text-color-H {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: -1px 1px 0 #c2c2c2,
+        1px 1px 0 #c2c2c2,
+        1px -1px 0 #c2c2c2,
+        -1px -1px 0 #c2c2c2;
+}
+
+.accent-color-H {
+    color: rgb(215, 162, 49);
+}
+
+.black-text-border {
+    text-shadow: var(--text-border);
+}
+
 
 .navbar-logo {
     max-height: 40px;
@@ -152,6 +170,14 @@ h4 {
     color: var(--blue-color);
 }
 
+.hufflepuff-link:hover {
+    color: var(--yellow-color);
+}
+
+.hufflepuff-link {
+    text-shadow: var(--text-border);
+}
+
 
 .founder-img {
     max-width: 310px;
@@ -170,6 +196,14 @@ h4 {
 
 .ravenclaw-img {
     border: 15px ridge var(--bronze-color);
+}
+
+.hufflepuff-img {
+    border: 8px ridge rgb(205, 204, 204);
+    outline: 3px solid rgb(0, 0, 0);
+    filter: drop-shadow(0px 0px 15px silver);
+
+
 }
 
 
@@ -202,6 +236,9 @@ td {
     color: var(--blue-color);
 }
 
+.hufflepuff-table {
+    color: var(--yellow-color);
+}
 
 .git-footer {
     font-family: var(--main-font);
