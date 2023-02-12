@@ -4,7 +4,9 @@
     --golden-color: rgb(221, 139, 62);
     --red-color: rgb(248, 85, 85);
     --green-color: rgb(75, 122, 91);
-    --text-color: silver;
+    --bronze-color: #b77d66;
+    --blue-color: rgb(86, 131, 198);
+    --text-color: rgb(205, 203, 203);
     --text-border: -1px 1px 0 #000,
         1px 1px 0 #000,
         1px -1px 0 #000,
@@ -21,7 +23,13 @@ body {
 }
 
 .hero {
-    margin: 100px 60px 20px 60px;
+
+    padding: 30px;
+    margin: 40px 15% 30px 15%;
+
+    background-color: #0000006f;
+    border-radius: 25px;
+    max-width: 800px;
 }
 
 .container {
@@ -41,6 +49,7 @@ h2 {
 
 h3 {
     padding: 20px 0;
+    margin: 0;
 }
 
 h4 {
@@ -73,6 +82,14 @@ h4 {
 
 .accent-color-S {
     color: rgb(19, 89, 58);
+}
+
+.text-color-R {
+    color: var(--bronze-color);
+}
+
+.accet-color-R {
+    color: rgb(54, 85, 155);
 }
 
 
@@ -131,12 +148,16 @@ h4 {
     color: var(--green-color);
 }
 
+.ravenclaw-link:hover {
+    color: var(--blue-color);
+}
+
 
 .founder-img {
     max-width: 310px;
     display: block;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .gryffindor-img {
@@ -145,6 +166,10 @@ h4 {
 
 .slytherin-img {
     border: 15px ridge var(--text-color);
+}
+
+.ravenclaw-img {
+    border: 15px ridge var(--bronze-color);
 }
 
 
@@ -173,6 +198,10 @@ td {
     color: var(--green-color);
 }
 
+.ravenclaw-table {
+    color: var(--blue-color);
+}
+
 
 .git-footer {
     font-family: var(--main-font);
@@ -183,13 +212,33 @@ td {
 }
 
 .git-link {
-    color: darkgreen;
-    text-decoration: none;
+    filter: drop-shadow(0px 0px 15px silver);
+}
+
+.git-link:hover {
+    color: var(--text-color);
+    filter: brightness(140%);
 }
 
 
-
 @media (max-width: 600px) {
+
+    .G {
+        color: crimson;
+    }
+
+    .S {
+        color: darkgreen;
+    }
+
+    .R {
+        color: rgb(31, 31, 240);
+    }
+
+    .H {
+        color: rgb(243, 201, 96)
+    }
+
     h1 {
         font-size: 72px;
         text-align: center;
