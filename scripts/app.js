@@ -116,13 +116,13 @@ showSerious(helga);
 
 
 document.querySelector("#godric-link-first").addEventListener("click", changeToCuteG);
-document.querySelector ("#godric-link-second").addEventListener("click", changeToSeriousG);
+document.querySelector("#godric-link-second").addEventListener("click", changeToSeriousG);
 
-document.querySelector ("#salazar-link-first").addEventListener("click", changeToCuteS);
-document.querySelector ("#salazar-link-second").addEventListener("click", changeToSeriousS);
+document.querySelector("#salazar-link-first").addEventListener("click", changeToCuteS);
+document.querySelector("#salazar-link-second").addEventListener("click", changeToSeriousS);
 
-document.querySelector ("#rowena-link-first").addEventListener("click", changeToCuteR);
-document.querySelector ("#rowena-link-second").addEventListener("click", changeToSeriousR);
+document.querySelector("#rowena-link-first").addEventListener("click", changeToCuteR);
+document.querySelector("#rowena-link-second").addEventListener("click", changeToSeriousR);
 
-document.querySelector ("#helga-link-first").addEventListener("click", changeToCuteH);
-document.querySelector ("#helga-link-second").addEventListener("click", changeToSeriousH);
+document.querySelector("#helga-link-first").addEventListener("click", changeToCuteH);
+document.querySelector("#helga-link-second").addEventListener("click", changeToSeriousH);
