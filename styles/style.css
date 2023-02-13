@@ -24,17 +24,15 @@ body {
 }
 
 .hero {
-
     padding: 30px;
-    margin: 40px 15% 30px 15%;
-
+    margin: 0 auto;
     background-color: #0000006f;
     border-radius: 25px;
     max-width: 800px;
 }
 
 .container {
-    padding: 0 100px 0 100px;
+    padding: 20px 100px 0 100px;
 }
 
 
