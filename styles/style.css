@@ -240,13 +240,14 @@ i:hover {
     border: 10px ridge var(--text-color);
     display: block;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .sorting-hat-img {
     max-width: 350px;
-
     display: block;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 
@@ -334,7 +335,7 @@ td {
     }
 
     h3 {
-        font-size: 30px;
+        font-size: 34px;
         line-height: 1.5;
     }
 
@@ -348,12 +349,14 @@ td {
         padding: 0;
     }
 
-    table {
+    table,
+    .rowling-img,
+    .full-logo-img,
+    .sorting-hat-img {
         max-width: 300px;
     }
 
-    .rowling-img {
-        max-width: 300px;
+    p {
+        font-size: 28px;
     }
-
 }
