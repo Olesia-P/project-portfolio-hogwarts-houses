@@ -55,6 +55,12 @@ h4 {
     font-size: 30px;
 }
 
+p {
+    text-align: justify;
+    font-family: var(--main-font);
+    font-size: 20px;
+}
+
 .heading {
     font-family: var(--hogwarts-font);
     text-align: center;
@@ -102,6 +108,13 @@ h4 {
 
 .accent-color-H {
     color: rgb(215, 162, 49);
+}
+
+h3.text-color-H span.heading {
+    text-shadow: -1px 1px 0 #c2c2c2,
+        1px 1px 0 #c2c2c2,
+        1px -1px 0 #c2c2c2,
+        -1px -1px 0 #c2c2c2;
 }
 
 .black-text-border {
@@ -220,6 +233,20 @@ i:hover {
 .hufflepuff-img {
     border: 15px ridge rgb(89, 88, 88);
     outline: 1px solid rgb(255, 254, 254);
+}
+
+.full-logo-img {
+    max-width: 350px;
+    border: 10px ridge var(--text-color);
+    display: block;
+    margin: 0 auto;
+}
+
+.sorting-hat-img {
+    max-width: 350px;
+
+    display: block;
+    margin: 0 auto;
 }
 
 
